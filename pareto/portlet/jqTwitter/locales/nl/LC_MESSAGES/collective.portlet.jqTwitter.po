@@ -1,0 +1,51 @@
+# Thijs Jonkman <thijs@pareto.nl>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone\n"
+"POT-Creation-Date: 2012-04-02\n"
+"PO-Revision-Date: 2012-04-02\n"
+"Last-Translator: Thijs Jonkman <thijs@pareto.nl>\n"
+"Language-Team: Pareto <info@pareto.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language-Code: nl\n"
+"Language-Name: Nederlands\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: pareto.portlet.jqTwitter\n"
+"X-Is-Fallback-For: nl-be nl-nl\n"
+
+msgid "Portlet header"
+msgstr "Portlet header"
+
+msgid "Title of the rendered portlet"
+msgstr "Titel van de portlet"
+
+msgid "Search term"
+msgstr "Zoek term"
+
+msgid "Either user or hashtag."
+msgstr "Gebruik of de gebruikersnaam of een hashtag"
+
+msgid "Search term type"
+msgstr "Zoek term type"
+
+msgid "Select the type of search."
+msgstr "Selecteer het type zoekopdracht, of gebruiker (user) of hashtag"
+
+msgid "Number of results"
+msgstr "Aantal te tonen resultaten"
+
+msgid "Show avatar"
+msgstr "Toon avatar"
+
+msgid "If enabled, avatars of users wil be shown."
+msgstr "Wanneer deze is aangevinkt worden afbeeldingen getoond bij de gebruiker en/of tweets"
+
+msgid "Show user information"
+msgstr "Toon gebruikers informatie"
+
+msgid "If enabled, in a user type search, the users information wil be shown."
+msgstr "Wanneer deze is aangevinkt wordt er, bij het type gebruiker zoekopdracht, een informatie blok over de gebruiker getoond."
+

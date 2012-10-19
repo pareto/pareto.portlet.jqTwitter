@@ -1,0 +1,42 @@
+<dl class="portlet portletTwitter"
+    tal:define="term view/data/term;
+                type view/data/type;
+                number view/data/number;
+                info view/data/info;
+                showAvatar python:'true' if view.data.show_avatar else 'false';
+                show_info view/data/show_info;   
+                showInfo python:'true' if show_info else 'false';   
+                show_user view/data/show_user;   
+                showUser python:'true' if show_user else 'false';   
+                header python:'' if show_user else view.data.header;"
+    tal:attributes="data-term term;
+                    data-type type;
+                    data-number number;
+                    data-showAvatar showAvatar;
+                    data-showInfo showInfo;
+                    data-showUser showUser;"   
+    i18n:domain="pareto.portlet.jqTwitter">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span class="portletTitle" tal:content="header">Title</span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem info"
+        tal:condition="python:show_info and not show_user"
+        tal:content="structure info">
+        Info
+    </dd>
+
+    <dd class="portletItem noTweets odd"
+        i18n:translate="">
+        No tweets.
+    </dd>
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>
