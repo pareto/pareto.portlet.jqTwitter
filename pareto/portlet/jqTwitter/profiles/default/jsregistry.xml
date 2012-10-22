@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
 <object name="portal_javascripts" meta_type="JavaScripts Registry">
- <javascript id="++resource++jquery.twitter.js" enabled="True" />
+    <javascript  authenticated="False" cacheable="True" compression="safe"
+        conditionalcomment="" cookable="True" enabled="True"
+        expression="here/@@jqTwitter/isAssigned" inline="False"
+        id="++resource++jquery.twitter.js" />
 </object>

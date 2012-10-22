@@ -9,4 +9,12 @@
     name="jquery.twitter.js"
     />
 
+  <browser:page
+    name="jqTwitter"
+    for="*"
+    class=".jqTwitter.JQTwitterView"
+    permission="zope2.View"
+    allowed_attributes="isAssigned"
+    />
+
 </configure>
