@@ -1,7 +1,10 @@
 Changelog
 =========
 
-1.0dev (unreleased)
+1.1dev (unreleased)
 -------------------
 
+1.0 - Released oktober 26th 2012
+--------------------------------
 - Initial release
+
