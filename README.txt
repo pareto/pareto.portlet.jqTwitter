@@ -1,3 +1,5 @@
+!!! Twitter broke the old API, don't use anymore.
+
 Introduction
 ============
 This product installs a Plone portlet which shows tweets of a twitter user or 
